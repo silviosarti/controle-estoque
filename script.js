@@ -14,7 +14,8 @@ document.getElementById('product-form').addEventListener('submit', function (e) 
         vlr_unid: this.vlr_unid.value,
         vlr_total: this.vlr_total.value
     };
-    fetch('YOUR_WEB_APP_URL', {
+    
+        fetch('https://script.google.com/macros/s/AKfycbx1234567890abcdefg/exec', {
         method: 'POST',
         body: JSON.stringify(data)
     }).then(res => alert('Produto cadastrado!'));
