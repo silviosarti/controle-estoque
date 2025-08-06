@@ -39,7 +39,8 @@ function updateItem(id, row) {
 }
 
 function deleteItem(id) {
-    fetch('YOUR_WEB_APP_URL', {
+    
+fetch('https://script.google.com/macros/s/AKfycbx1234567890abcdefg/exec', {
         method: 'POST',
         body: JSON.stringify({ action: 'delete', id: id })
     }).then(res => alert('Produto excluído!'));
