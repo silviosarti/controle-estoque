@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Customização</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="logo.png" alt="Logotipo" class="logo">
+    <h1>Customização Visual</h1>
+    <form id="custom-form">
+        <label>Cor de Fundo: <input type="color" id="bg-color"></label><br>
+        <label>Cor do Texto: <input type="color" id="text-color"></label><br>
+        <label>Logotipo: <input type="file" id="logo-upload"></label><br>
+        <label>Tema: 
+            <select id="theme-select">
+                <option value="claro">Claro</option>
+                <option value="escuro">Escuro</option>
+            </select>
+        </label><br>
+        <button type="button" onclick="applyCustomizations()">Aplicar</button>
+    </form>
+    <script src="customizacao.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+
+body {
+    background-color: #003366;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+button {
+    background-color: #FFD700;
+    color: #003366;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+th, td {
+    border: 1px solid white;
+    padding: 8px;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="logo.png" alt="Logotipo" class="logo">
+    <h1>Cadastro de Produtos</h1>
+    <form id="product-form">
+        <label>ID: <input type="text" name="id" required></label><br>
+        <label>Produto: <input type="text" name="produto" required></label><br>
+        <label>Quantidade: <input type="number" name="qtde" required></label><br>
+        <label>Valor Unitário: <input type="number" name="vlr_unid" step="0.01" required></label><br>
+        <label>Valor Total: <input type="number" name="vlr_total" step="0.01" readonly></label><br>
+        <button type="submit">Cadastrar</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
